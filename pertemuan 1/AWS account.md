@@ -8,7 +8,17 @@
 3. Isi Email dan AWS Account Name, klik verify
 ![alt text](image-1.png)
 
-4. Verify kode di Email
+4. Verify kode di Email cd "c:\Users\User\OneDrive\Documents\maemunah\Administrasi server\materi-semester-6"
+
+# stage and commit
+git add .
+git commit -m "Initial commit – add pertemuan 1"
+
+# add your GitHub repo as the remote (replace with your repo URL)
+git remote add origin https://github.com/<your‑username>/materi-semester-6.git
+
+# push to GitHub
+git push -u origin main  
 ![alt text](image-2.png)
 
 5. Membuat Password akun AWS 
