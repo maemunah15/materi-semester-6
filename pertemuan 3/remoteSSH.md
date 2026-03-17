@@ -7,23 +7,26 @@
 -Buka Putty Gen
 -Load Private Key .pem (file .pem didapat saat membuat instance EC2 yang ada di folder pertemuan 2 yang biasanya di folder download)
 ![alt text](image-1.png)
+
 -Klik Save Private Key menjadi ekstensi File .ppk
 ![alt text](image-2.png)
 
-3. Setting-Up Remote SSH dengan PPitty
--isi Ip4 addres Public 
+4. Setting-Up Remote SSH dengan PPitty
+-Isi Ip4 addres Public
+
 ![alt text](image-3.png)
--port SSH (22)
--load private key di .ppk di menu COnnection -> SSH ->Auth -> Credential
+-Port SSH (22)
+-Load private key di .ppk di menu COnnection -> SSH ->Auth -> Credential
 ![alt text](image-4.png)
--user dari instance  masing-masing (ubuntu)
+
+-User dari instance  masing-masing (ubuntu)
 ![alt text](image-7.png)
 
-4. Setiap awal Remote kita lakukan Patching OS
+6. Setiap awal Remote kita lakukan Patching OS
 -sudo apt-get update && sudo apt-get upgrade
 ![alt text](image-8.png)
 
-5. Coba lakukan instalasi web server dalam keadaan kosong
+7. Coba lakukan instalasi web server dalam keadaan kosong
 ![alt text](image-9.png)
 
 Instal salah satu web server
