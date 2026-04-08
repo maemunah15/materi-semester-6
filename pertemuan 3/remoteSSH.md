@@ -11,7 +11,7 @@
 -Klik Save Private Key menjadi ekstensi File .ppk
 ![alt text](image-2.png)
 
-4. Setting-Up Remote SSH dengan Putty
+3. Setting-Up Remote SSH dengan Putty
 -Isi Ip4 addres Public
 
 ![alt text](image-3.png)
@@ -22,7 +22,7 @@
 -User dari instance masing-masing (ubuntu)
 ![alt text](image-7.png)
 
-6. Setiap awal Remote kita lakukan Patching OS
+4. Setiap awal Remote kita lakukan Patching OS
 -sudo apt-get update && sudo apt-get upgrade
 ![alt text](image-8.png)
 
