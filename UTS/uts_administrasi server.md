@@ -11,12 +11,15 @@ Maemunah Halimatus Sa'diyah | 2388010026 | Informatika 6A
 2. Wajib mengaktifkan Detailed CloudWatch Monitoring dan membuat 1 buah Alarm jika penggunaan CPU menyentuh >80%.
 ![alt text](image-1.png)
 
-3. Mengaktifkan dan menjalankan nginx
+3. Security Group Inbound Rules (menunjukkan Port 22 hanya diakses oleh My IP).
+![alt text](image-6.png)
+
+4. Mengaktifkan dan menjalankan nginx
 ![alt text](image-2.png)
 ![alt text](image-3.png)
 ![alt text](image-4.png)
 
-4.Deployment Aplikasi Web
+5. Deployment Aplikasi Web
 - Setelah layanan Nginx berhasil dijalankan, dilakukan pengujian dengan mengakses alamat IP publik (Elastic IP) melalui browser.
 - Website CV yang telah diunggah kemudian berhasil ditampilkan, menandakan bahwa proses deployment berjalan dengan baik dan server dapat diakses secara online.
 - Dengan demikian, konfigurasi web server dan proses upload file website telah berhasil dilakukan tanpa kendala.
