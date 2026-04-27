@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",-
+    "dev": "next dev",
     "build": "next build",
-    "postbuild": "NODE_OPTIONS='--max_old_space_size=2048' node -e \"const{cpSync}=require('fs');cpSync('public','.next/standalone/public',{recursive:true});cpSync('.next/static','.next/standalone/.next/static',{recursive:true});console.log('✓ Static assets copied to standalone')\"'",
+    "postbuild": "node -e \"const{cpSync}=require('fs');cpSync('public','.next/standalone/public',{recursive:true});cpSync('.next/static','.next/standalone/.next/static',{recursive:true});console.log('✓ Static assets copied to standalone')\"",
     "start": "node .next/standalone/server.js",
     "lint": "eslint"
   },
