@@ -19,3 +19,5 @@
 - Nyalakan instance AWS
 - Connect Open SSH
 - Connect Filezille  
+- lalu paste file zip bersamaan dengan file html
+![alt text](image-3.png)
